@@ -102,5 +102,6 @@ bar
 defining a func name as '1341545&_+_+*&*^%(*)' should work since it's never called
 having syntax errors in an uncalled function should not cause errors
 ErrorType.NAME_ERROR 19''',
-
+'''tests wide spacing between tokens
+456''',
 ]

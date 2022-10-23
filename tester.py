@@ -26,6 +26,7 @@ if __name__ == "__main__":
       err = f'{test1.error_type} {test1.error_line}'
       actual = "\n".join(test1.get_output()) + f'\n{err}' if len(test1.get_output()) > 0 else err
       print(actual)
+      print(e)
 
     print()
     print('EXPECTED OUTPUT:')
@@ -37,8 +38,6 @@ if __name__ == "__main__":
       print("PASS")
       num_passed += 1
     else:
-      print(len(actual) )
-      print(len(expected))
       print("FAIL")
     for j in range(100):
       print('=', end='')

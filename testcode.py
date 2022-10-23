@@ -474,6 +474,13 @@ func 1341545&_+_+*&*^%(*)
   assign !@#$$%^&*^%&(__+^#&^%%&#%@&(*$%)) 45245 jhfdjhty7 6j7ryd
   funccall print "this function shouldn't error since it's not called"
 endfunc
+''',
 '''
+func main
+  funccall print "tests wide spacing between tokens"
+  assign                              fdf                                                         456
+  funccall           print                                           fdf
+endfunc
+''',
 
 ]
