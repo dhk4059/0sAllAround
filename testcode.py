@@ -478,8 +478,8 @@ endfunc
 '''
 func main
   funccall print "tests wide spacing between tokens"
-  assign                              fdf                                                         456
-  funccall           print                                           fdf
+  assign                              fdf                                                         456                           
+  funccall           print                                           fdf                      
 endfunc
 ''',
 
