@@ -104,4 +104,6 @@ having syntax errors in an uncalled function should not cause errors
 ErrorType.NAME_ERROR 19''',
 '''tests wide spacing between tokens
 456''',
+'''leading zeroes test
+4'''
 ]

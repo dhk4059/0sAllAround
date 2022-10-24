@@ -482,5 +482,11 @@ func main
   funccall           print                                           fdf                      
 endfunc
 ''',
-
+'''
+func main
+  funccall print "leading zeroes test"
+  assign i 00004
+  funccall print i
+endfunc
+'''
 ]
